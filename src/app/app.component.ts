@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  ongetmyout(selectedDoc: any){
+   this.title=selectedDoc;
+  }
 }
+

@@ -5,9 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import {SampleComponent} from './sample/sample.componenet';
+import {TwowaybindingComponent} from './twowaybinding/twowaybinding.component';
+import {InputtocompComponent} from './inputocomp/inputtocomp.component';
+import {OutputfromcompComponent} from './outputfromcomp/outputfromcomp.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,SampleComponent,TwowaybindingComponent,InputtocompComponent,OutputfromcompComponent
   ],
   imports: [
     BrowserModule,
